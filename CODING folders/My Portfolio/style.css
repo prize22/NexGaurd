@@ -722,35 +722,27 @@ footer {
 
 @media (max-width: 760px) {
   nav {
-    padding: 14px 20px;
-    gap: 16px;
-  }
+  padding: 14px 20px;
+}
 
-  .nav-logo {
-    font-size: 12px;
-    flex: 0 0 auto;
-  }
+.nav-logo {
+  font-size: 12px;
+}
 
-  .nav-links {
-    gap: 14px;
-    overflow-x: auto;
-    scrollbar-width: none;
-    max-width: 100%;
-  }
+.nav-links {
+  right: 20px;
+  left: 20px;
+  min-width: auto;
+}
 
-  .nav-links::-webkit-scrollbar {
-    display: none;
-  }
+.nav-links a {
+  font-size: 13px;
+  white-space: normal;
+}
 
-  .nav-links a {
-    display: inline-block;
-    white-space: nowrap;
-    font-size: 12px;
-  }
-
-  .nav-cta {
-    padding: 7px 14px;
-  }
+.nav-cta {
+  padding: 10px 12px;
+}
 
   section {
     padding: 76px 22px;
@@ -851,8 +843,14 @@ footer {
 
 @media (max-width: 420px) {
   nav {
-    padding: 12px 16px;
-  }
+  padding: 12px 16px;
+}
+
+.nav-links {
+  right: 16px;
+  left: 16px;
+}
+
 
   .nav-links {
     gap: 12px;
